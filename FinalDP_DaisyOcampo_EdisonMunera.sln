@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TipCalculator", "TipCalculator", "{15337A29-742A-4156-8110-3CFF858FD601}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalculator.Core", "TipCalculator.Core\TipCalculator.Core.csproj", "{56B50D88-EE37-4276-A235-697D80EAA94E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalculator.Android", "TipCalculator.Android\TipCalculator.Android.csproj", "{4B635CBA-F371-456D-B7AB-F1761E8B2D37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56B50D88-EE37-4276-A235-697D80EAA94E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B50D88-EE37-4276-A235-697D80EAA94E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B50D88-EE37-4276-A235-697D80EAA94E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B50D88-EE37-4276-A235-697D80EAA94E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B635CBA-F371-456D-B7AB-F1761E8B2D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B635CBA-F371-456D-B7AB-F1761E8B2D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B635CBA-F371-456D-B7AB-F1761E8B2D37}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4B635CBA-F371-456D-B7AB-F1761E8B2D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B635CBA-F371-456D-B7AB-F1761E8B2D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B635CBA-F371-456D-B7AB-F1761E8B2D37}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56B50D88-EE37-4276-A235-697D80EAA94E} = {15337A29-742A-4156-8110-3CFF858FD601}
+		{4B635CBA-F371-456D-B7AB-F1761E8B2D37} = {15337A29-742A-4156-8110-3CFF858FD601}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DFA53CE-87BB-4603-9997-B840DE561504}
+	EndGlobalSection
+EndGlobal
