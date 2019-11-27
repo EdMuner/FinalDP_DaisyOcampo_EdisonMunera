@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalculator.Core", "TipCa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalculator.Android", "TipCalculator.Android\TipCalculator.Android.csproj", "{4B635CBA-F371-456D-B7AB-F1761E8B2D37}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QuadraticEquations", "QuadraticEquations", "{7428DC86-EB57-453A-BBC7-9D85445F5F41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquations.Core", "QuadraticEquations.Core\QuadraticEquations.Core.csproj", "{E30B6B7A-5115-4FC7-88D5-DA2FF1DC4782}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quadratic.Android", "Quadratic.Android\Quadratic.Android.csproj", "{CA443FB5-DDF0-43C6-A79B-79AF2F316F80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +31,16 @@ Global
 		{4B635CBA-F371-456D-B7AB-F1761E8B2D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B635CBA-F371-456D-B7AB-F1761E8B2D37}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4B635CBA-F371-456D-B7AB-F1761E8B2D37}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E30B6B7A-5115-4FC7-88D5-DA2FF1DC4782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E30B6B7A-5115-4FC7-88D5-DA2FF1DC4782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E30B6B7A-5115-4FC7-88D5-DA2FF1DC4782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E30B6B7A-5115-4FC7-88D5-DA2FF1DC4782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA443FB5-DDF0-43C6-A79B-79AF2F316F80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA443FB5-DDF0-43C6-A79B-79AF2F316F80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA443FB5-DDF0-43C6-A79B-79AF2F316F80}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CA443FB5-DDF0-43C6-A79B-79AF2F316F80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA443FB5-DDF0-43C6-A79B-79AF2F316F80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA443FB5-DDF0-43C6-A79B-79AF2F316F80}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +48,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{56B50D88-EE37-4276-A235-697D80EAA94E} = {15337A29-742A-4156-8110-3CFF858FD601}
 		{4B635CBA-F371-456D-B7AB-F1761E8B2D37} = {15337A29-742A-4156-8110-3CFF858FD601}
+		{E30B6B7A-5115-4FC7-88D5-DA2FF1DC4782} = {7428DC86-EB57-453A-BBC7-9D85445F5F41}
+		{CA443FB5-DDF0-43C6-A79B-79AF2F316F80} = {7428DC86-EB57-453A-BBC7-9D85445F5F41}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8DFA53CE-87BB-4603-9997-B840DE561504}
